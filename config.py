@@ -15,7 +15,7 @@ SUPPORT_GROUP = os.getenv('SUPPORT_GROUP', '')
 OPENAI_KEY = os.getenv('OPENAI_KEY', '')
 
 # MongoDB Configuration
-MONGODB_URL = os.getenv('MONGODB_URL', '')
+MONGODB_URL = os.getenv('ravi12345@cluster0.hndinhj.mongodb.net', '')
 
 # Check if all required environment variables are set
 if not all([API_ID, API_HASH, BOT_TOKEN, OPENAI_KEY, OWNER_ID, OWNER_USERNAME, UPDATE_CHANNEL, SUPPORT_GROUP, MONGODB_URL]):
