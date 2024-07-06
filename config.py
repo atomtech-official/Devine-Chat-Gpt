@@ -6,9 +6,9 @@ API_HASH = os.getenv('270485614', '')
 BOT_TOKEN = os.getenv('7215728836:AAGiuVJ-zmHBSqjkathnizbcZueOXSuMIWc', '')
 BOT_NAME = os.getenv('MEERA AI', '')
 BOT_USERNAME = os.getenv('@meeraai_bot', '')
-OWNER_ID = int(os.getenv('OWNER_ID', ''))
+OWNER_ID = int(os.getenv('Dhruv Dubey', ''))
 OWNER_USERNAME = os.getenv('@iam_dhruv_dubey', '')
-UPDATE_CHANNEL = os.getenv('UPDATE_CHANNEL', '')
+UPDATE_CHANNEL = os.getenv('', '')
 SUPPORT_GROUP = os.getenv('SUPPORT_GROUP', '')
 
 # OpenAI Configuration
