@@ -1,11 +1,11 @@
 import os
 
 # Telegram Bot Configuration
-API_ID = int(os.getenv('API_ID', ''))
-API_HASH = os.getenv('API_HASH', '')
-BOT_TOKEN = os.getenv('BOT_TOKEN', '')
-BOT_NAME = os.getenv('BOT_NAME', '')
-BOT_USERNAME = os.getenv('BOT_USERNAME', '')
+API_ID = int(os.getenv('AAHfiqksKZ8WmR2zSjiQ7_v4TMAKdiHm9T0', ''))
+API_HASH = os.getenv('270485614', '')
+BOT_TOKEN = os.getenv('7215728836:AAGiuVJ-zmHBSqjkathnizbcZueOXSuMIWc', '')
+BOT_NAME = os.getenv('MEERA AI', '')
+BOT_USERNAME = os.getenv('@meeraai_bot', '')
 OWNER_ID = int(os.getenv('OWNER_ID', ''))
 OWNER_USERNAME = os.getenv('OWNER_USERNAME', '')
 UPDATE_CHANNEL = os.getenv('UPDATE_CHANNEL', '')
