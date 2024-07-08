@@ -99,10 +99,20 @@ async def help(client, message: Message):
 
 @DEVINE.on_message(filters.command(["ping", "alive"], prefixes=["+", "/", "-", "?", "$", "&", "."]))
 async def ping(client, message: Message):
+    # Start loading animation
+    loading_msg = await message.reply_text("🔥")
+    await asyncio.sleep(0.4)
+    await loading_msg.edit_text("⚡")
+    await asyncio.sleep(0.5)
+    
+    # Calculate ping response time
     start_time = datetime.now()
-    await message.reply_text("Pinging...")
+    await message.reply_text("Ꮮᴏᴀᴅɪɴɢ...")
+    await asyncio.sleep(0.7)
     end_time = datetime.now()
     ms = (end_time - start_time).microseconds / 1000
+    
+    # Send ping response
     await message.reply_photo(
         photo=START_IMG,
         caption=f"✨ {BOT_NAME} ɪs ᴀʟɪᴠᴇ.\n\n"
